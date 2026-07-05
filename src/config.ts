@@ -8,16 +8,16 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Robot's Blog",
-	subtitle: "记录思考，分享知识",
+	title: "Fatalis's Blog",
+	subtitle: "代码 · 笔记 · 生活",
 	lang: "zh_CN",
 	themeColor: {
-		hue: 200,
+		hue: 270, // 紫色
 		fixed: false,
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png",
+		enable: true,
+		src: "https://avatars.githubusercontent.com/u/87472564",
 		position: "center",
 		credit: {
 			enable: false,
@@ -37,18 +37,23 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		{
+			name: "GitHub",
+			url: "https://github.com/Lotuses-robot",
+			external: true,
+		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png",
-	name: "Robot",
+	avatar: "https://avatars.githubusercontent.com/u/87472564",
+	name: "Fatalis",
 	bio: "软件工程开发者 · 终身学习者 · 知识管理实践者",
 	links: [
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com",
+			url: "https://github.com/Lotuses-robot",
 		},
 	],
 };
