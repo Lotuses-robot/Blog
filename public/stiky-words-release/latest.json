@@ -1,0 +1,10 @@
+{
+  "version": "0.8.0",
+  "releaseDate": "2026-07-07",
+  "downloadUrl": "https://blog.lotuses.cn/stiky-words-release/app-0.8.0.zip",
+  "changelog": "- 新增阅读复习功能\n- UI 展示层精简\n- 新词卡布局：英英→中文(隐藏)→分割线→例句\n- 复习标签改为巩固\n- 自动更新检查",
+  "minOsVersion": "",
+  "forceUpdate": true,
+  "size": 49986884,
+  "sha256": "418520fa08e5ef9a6906d24802aaa09c041e19610ab6daf58d510e63593b5216"
+}
